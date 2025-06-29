@@ -1,0 +1,13 @@
+---
+text: Завтраки
+callbackData: breakfast
+---
+text: Что-то полегче
+callbackData: easy
+---
+text: Кофе
+callbackData: coffee
+---
+text: Перекусить
+callbackData: fast
+
