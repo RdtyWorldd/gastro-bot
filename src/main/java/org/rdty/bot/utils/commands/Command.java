@@ -1,5 +1,8 @@
 package org.rdty.bot.utils.commands;
 
-public class Command {
+import org.telegram.telegrambots.meta.api.methods.send.SendPhoto;
+import org.telegram.telegrambots.meta.api.objects.Update;
 
+public interface Command {
+    SendPhoto apply(Update update);
 }
